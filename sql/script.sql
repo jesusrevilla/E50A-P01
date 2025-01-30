@@ -12,3 +12,4 @@ INSERT INTO users (name, email) VALUES ('Bob', 'bob@example.com');
 -- fetch 
  SELECT * FROM users;
 
+
