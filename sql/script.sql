@@ -11,9 +11,12 @@ CREATE TABLE USERS (
   email varchar NOT NULL
 );
 
+--create index
+CREATE INDEX idx_users_id ON USERS(id);
+
 -- insert
 INSERT INTO USERS (name,email) VALUES ('Alice', 'alice@example.com');
 INSERT INTO USERS (name,email) VALUES ('Bob', 'bob@example.com');
 
--- fetch 
+-- fetch
 SELECT * FROM USERS;
