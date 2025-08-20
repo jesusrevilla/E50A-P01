@@ -3,3 +3,6 @@ CREATE TABLE users(
   name VARCHAR NOT NULL,
   email VARCHAR NOT NULL
 );
+INSERT INTO users (name, email) VALUES
+  ('Alice', 'alice@email.com'),
+  ('Bob', 'bob@email.com');
