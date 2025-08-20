@@ -9,4 +9,3 @@ CREATE TABLE users (
 INSERT INTO users (name, email) VALUES
 ('Alice', 'alice@outlook.com'),
 ('Bob', 'bob@outlook.com');
-
