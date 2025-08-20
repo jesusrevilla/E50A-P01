@@ -7,7 +7,7 @@ CREATE TABLE users (
 
 -- Insertar datos (con IDs manuales)
 INSERT INTO users (id, name, email) VALUES
-(1, 'Alice', '179827@upslp.edu.mx'),
+(1, 'Alice', '179824@upslp.edu.mx'),
 (2, 'Bob', '196354@upslp.edu.mx');
 
 -- Mostrar los datos insertados
