@@ -1,1 +1,4 @@
-
+CREATE TABLE users
+id_usuario SERIAL PRIMARY KEY,
+name VARCHAR(30) NOT NULL,
+Columna email tipo VARCHAR NOT NULL
