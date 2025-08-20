@@ -9,3 +9,5 @@ CREATE TABLE users (
 --Insertar registros
 INSERT INTO users (name, email) VALUES ('Alice','Alice@gmail.com');
 INSERT INTO users (name, email) VALUES ('Bob','bob@gmail.com');
+
+SELECT * FROM users;
