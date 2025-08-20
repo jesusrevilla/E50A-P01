@@ -6,9 +6,6 @@ CREATE TABLE users (
 
 -- INSERCIÓN DE DATOS DE EJEMPLO
 INSERT INTO users (name, email) VALUES
-('Juan Pérez', 'juan.perez@example.com'),
-('María González', 'maria.gonzalez@example.com'),
-('Carlos López', 'carlos.lopez@example.com'),
 ('Alice', 'alice@example.com'),
 ('Bob', 'bob@example.com');
 
