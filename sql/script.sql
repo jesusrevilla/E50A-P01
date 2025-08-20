@@ -5,4 +5,4 @@ CREATE TABLE users(
 );
 
 INSERT INTO users VALUES (0001, 'Alice', 'alice@gmail.com');
-INSERT INTO users VALUES (0001, 'Bob', 'bob@gmail.com');
+INSERT INTO users VALUES (0002, 'Bob', 'bob@gmail.com');
