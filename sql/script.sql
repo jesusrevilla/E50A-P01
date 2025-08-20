@@ -1,1 +1,7 @@
+CREATE TABLE users(
+  users_id SERIAL PRIMARY KEY,
+  name VARCHAR(30) NOT NULL,
+  email VARCHAR(30) NOT NULL
+);
 
+INSERT INTO users(name, email) VALUES ('Alice','alice@gmail.com'),('Bob','bob@gmail.com');
