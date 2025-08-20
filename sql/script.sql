@@ -9,3 +9,4 @@ INSERT INTO users (nombre, email) VALUES
 ('Bob', 'Bob@hotmail.com');
 
 SELECT * FROM users;
+
