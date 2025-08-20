@@ -1,1 +1,8 @@
+CREATE TABLE USERS (
+  id SERIAL PRIMARY KEY,
+  name VARCHAR NOT NULL,
+  email VARCHAR NOT NULL
+);
 
+INSERT INTO USERS VALUES (001,'Alice','alice@gmail.com');
+INSERT INTO USERS VALUES (002,'Bob','bob@gmail.com');
