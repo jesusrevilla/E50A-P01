@@ -1,7 +1,7 @@
 CREATE TABLE users (
- id tipo SERIAL PRIMARY KEY,
- name tipo VARCHAR NOT NULL,
- email tipo VARCHAR NOT NULL
+ id SERIAL PRIMARY KEY,
+ name VARCHAR NOT NULL,
+ email VARCHAR NOT NULL
   );
 
 INSERT INTO users (id, name, email) VALUES
