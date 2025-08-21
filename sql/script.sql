@@ -4,4 +4,4 @@ CREATE TABLE USERS(
   email VARCHAR(50) NOT NULL
 );
 
-INSERT INTO USERS (name, email) VALUES (("Alice", "alice@outlook.es"), ("Bob", "bob@outlook.es"));
+INSERT INTO USERS (name, email) VALUES ('Alice', 'alice@outlook.es'), ('Bob', 'bob@outlook.es');
