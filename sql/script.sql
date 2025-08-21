@@ -1,5 +1,5 @@
 CREATE TABLE users (
-    id SERIAL PRIMARY KEY,
+    id INTEGRER PRIMARY KEY,
     name VARCHAR NOT NULL,
     email VARCHAR NOT NULL
 );
