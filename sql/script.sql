@@ -4,7 +4,5 @@ CREATE TABLE users(
   email VARCHAR(50) NOT NULL
 );
 
-INSERT INTO users (name) VALUES ('Alice', 'alice@outlook.com');
-INSERT INTO users (name) VALUES ('Bob', 'bob@outlook.com');
-
-SELECT * FROM users;
+INSERT INTO users (name, email) VALUES ('Alice', 'alice@outlook.com');
+INSERT INTO users (name, email) VALUES ('Bob', 'bob@outlook.com');
