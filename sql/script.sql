@@ -7,6 +7,3 @@ CREATE TABLE users(
 INSERT INTO users (nombre, email) VALUES
 ('Alice', 'Alice@hotmail.com'),
 ('Bob', 'Bob@hotmail.com');
-
-SELECT * FROM users;
-
