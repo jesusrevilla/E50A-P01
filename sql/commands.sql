@@ -1,7 +1,7 @@
 
 -- create
 CREATE TABLE USERS (
-  columna INTEGER PRIMARY KEY,
+  id SERIAL PRIMARY KEY,
   name VARCHAR NOT NULL,
   email VARCHAR NOT NULL
 );
