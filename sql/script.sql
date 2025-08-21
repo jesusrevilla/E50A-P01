@@ -4,5 +4,5 @@ CREATE TABLE users(
   email VARCHAR(50) NOT NULL
 );
 
-INSERT INTO users VALUES('Alice', 'alice123@gmail.com');
-INSERT INTO users VALUES('Bob', 'Bob123@gmail.com');
+INSERT INTO users(name, email) VALUES('Alice', 'alice123@gmail.com');
+INSERT INTO users(name, email) VALUES('Bob', 'Bob123@gmail.com');
