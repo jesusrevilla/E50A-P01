@@ -1,19 +1,7 @@
--- Crear tabla users
-CREATE TABLE users (
-    id SERIAL PRIMARY KEY,
-CREATE TABLE users (
-    id INTEGRER PRIMARY KEY,
-    name VARCHAR NOT NULL,
-    email VARCHAR NOT NULL
+CREATE TABLE USERS(
+  id_users SERIAL PRIMARY KEY,
+  name VARCHAR(50) NOT NULL,
+  email VARCHAR(50) NOT NULL
 );
 
--- Crear la tabla users
-CREATE TABLE users (
-    id SERIAL PRIMARY KEY,
-    name VARCHAR NOT NULL,
-    email VARCHAR NOT NULL
-);
-
--- Insertar dos registros
-INSERT INTO users (name, email) VALUES ('Alice', 'alice@upslp.com');
-INSERT INTO users (name, email) VALUES ('Bob', 'bob@upslp.com');
+INSERT INTO USERS (name, email) VALUES ('Alice', 'alice@outlook.es'), ('Bob', 'bob@outlook.es');
