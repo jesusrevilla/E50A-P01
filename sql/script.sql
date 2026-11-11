@@ -1,3 +1,11 @@
+-- Crear tabla users
+CREATE TABLE users (
+    id SERIAL PRIMARY KEY,
+CREATE TABLE users (
+    id INTEGRER PRIMARY KEY,
+    name VARCHAR NOT NULL,
+    email VARCHAR NOT NULL
+);
 
 -- Crear la tabla users
 CREATE TABLE users (
